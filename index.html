@@ -357,7 +357,7 @@
       document.getElementById("form-content").style.display = "none";
       document.getElementById("success-msg").style.display = "block";
       fbq('track', 'Lead');
-      fetch("https://n8n.autowisebrasil.com.br/webhook-test/arecoimoveis", {
+      fetch("https://webhook.autowisebrasil.com.br/webhook/arecoimoveis", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
